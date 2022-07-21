@@ -22,50 +22,90 @@
             
             <div class="col-lg-3 col-md-3  col-sm-3 ">
                 
-                <p class="d-none d-md-block d-large-block text-end"><i class="bi bi-telephone"></i> contact@gmail.com</p>
+                <p class="d-none d-md-block d-large-block text-center"><i class="bi bi-telephone"></i> contact@gmail.com</p>
             </div>
 
             <!-- this is used for the calling icon and phone number -->
-            <div class="col-lg-3 col-md-3 col-sm-3 ">
+            <div class="col-lg-3 col-md-3 col-sm-3 tex">
                 <!-- <i class="bi bi-telephone-outbound "></i> -->
-                <p class="d-none d-md-block d-large-block text-center"><i class="bi bi-envelope"></i>+808 0444 333 444</p>
+                <p class="d-none d-md-block d-large-block "><i class="bi bi-envelope"></i>+808 0444 333 444</p>
             </div>
             
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand col-lg-6 col-md-6 text-center" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ">
                 
-                <li class="nav-item active">
+                <li class="nav-item  about ">
                     <a class="nav-link" href="#">About</a>
                   </li>
                 
-                <li class="nav-item active">
+                <li class="nav-item about">
                   <a class="nav-link" href="#">Features</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item about">
                   <a class="nav-link" href="#">Project</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item about">
                     <a class="nav-link" href="#">Pages</a>
                   </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Contact</a>
+                <li class="nav-item about">
+                  <a class="nav-link " href="#">Contact</a>
                 </li>
+                <li class="nav-item about">
+                    <a class="nav-link " href="#"><i class="bi bi-search"></i></a>
+                  </li>
+                
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                
-                
-              </form>
             </div>
           </nav>
 
     </section>
+
+
+    <!-- for the front image -->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/wallpaper1.png" style="width:100%">
+          
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/wallpaper2.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/wallpaper3.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div> -->
+
+<script src="script.js"></script>
 </body>
 </html>
