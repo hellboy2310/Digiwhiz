@@ -332,3 +332,13 @@ td{
   color: #009879;
 }
 
+nav ul{
+  width: 100%;
+  background-color: linear-gradient(#ff54a2,#ff575a);
+  postion:absolute;
+  right: 0;
+  z-index: 2;
+}
+
+
+

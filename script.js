@@ -1,5 +1,8 @@
 
 
+let btnselector = document.getElementsByClassName(".navbar-toggler-icon")
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,3 +31,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+  var menulist = document.getElementById("menuList");
+  menulist.style.maxHeight = "0px";
+
+
+  function togglemenu(){
+    if(menulist.style.maxHeight == "0px")
+  {
+    menulist.style.maxHeight = "130px";
+  }
+  else{
+      menulist.style.maxHeight = "0px";
+  }
+  }
+
+  
